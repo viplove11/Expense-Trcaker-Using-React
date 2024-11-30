@@ -1,0 +1,24 @@
+.add-transaction{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 30px;
+    margin-top: 20px;
+}
+.add-transaction P{
+    font-weight: 600;
+}
+.add-transaction-form-element{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.add-transaction-form-element .amount-input{
+    width: 100%;
+}
+.add-transaction-form-element select{
+    width: 100% ;
+}

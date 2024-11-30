@@ -1,0 +1,50 @@
+.total-balance-div{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.total-balance p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.total-balance span{
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-top: -12px;
+}
+.income-expense
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+}
+.income, .expense{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+}
+.income, .expense{
+    background-color: #f21d44;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+    /* line-height: 1.2px; */
+}
+.income p , .expense p{
+    font-size: 15px;
+}
+.income span, .expense span{
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
