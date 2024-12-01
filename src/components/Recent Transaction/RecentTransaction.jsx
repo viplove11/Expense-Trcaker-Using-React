@@ -38,9 +38,24 @@ const RecentTransaction = () => {
                 <td>{transaction.date}</td>
                 <td>{transaction.description}</td>
                 <td>
-                  <p className="transaction-category">{transaction.category}</p>
+                  <p
+                    className={
+                      transaction.category === "Housing and Utilities"
+                        ? "housing"
+                        : transaction.category === "Food and Groceries"
+                        ? "grocery"
+                        : transaction.category === "Vehicle and Transportation"
+                        ? "vehicle"
+                        : ""
+                    }
+                  >
+                    {transaction.category}
+                  </p>
                 </td>
-                <td><LiaRupeeSignSolid />{transaction.transactionAmount}</td>
+                <td>
+                  <LiaRupeeSignSolid />
+                  {transaction.transactionAmount}
+                </td>
               </tr>
             ))}
           </tbody>

@@ -58,3 +58,7 @@
 .percentage-total {
   color: rgb(179, 178, 178);
 }
+.graph{
+  width: 50%;
+  height: 400px;
+}

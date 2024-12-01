@@ -8,8 +8,8 @@ import AddTransactions from "./components/Add Transactions/AddTransactions";
 import RecentTransaction from "./components/Recent Transaction/RecentTransaction";
 import GraphRepresentation from "./components/Graph Representation/GraphRepresentation";
 import UserCreation from "./components/User Creation/UserCreation";
-
 import { UserTransactionProvider } from "./Store/StoreContext";
+
 
 
 const App = () => {
