@@ -1,33 +1,21 @@
-.navbar-container{
-    display: flex;
-    justify-content: space-between;
-    padding-right: 50px;
-    padding-left: 50px;
-    background: white;
+.myTitle {
+  font-weight: 500;
+  font-size: 1.3vw;
+  text-decoration: none;
+  color: black;
 }
-.navbar-logo{
-    flex:auto;
+.myTitle span {
+  color: orangered;
 }
-.navbar-logo-span{
-    color: orangered;
+#myButton {
+  font-weight: 500;
+  color: white;
 }
-.logo-title{
-    font-size: 1.5vw;
-    font-weight: 500;
+.userName
+{
+  font-weight: 500;
+  font-size: 1.2vw;
 }
-
-.new-transaction-btn{
-    margin-top: 10px;
-    padding: 7px;
-    background-color: black;
-    color: white;
-    border: none;
-}
-.new-transaction-btn {
-    display: flex;                /* Use flexbox layout */
-    align-items: center;         /* Center items vertically */
-}
-
-.new-transaction-btn svg {      /* If using an SVG icon like FaPlus */
-    margin-right: 5px;          /* Add some space between the icon and text */
+.userName span{
+  color: orangered;
 }
