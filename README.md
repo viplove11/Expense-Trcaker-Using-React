@@ -52,7 +52,6 @@ To run this project locally, follow these steps:
 Open your browser and navigate to http://localhost:3000 to view the application.
 
 ## Folder Structure:
-
     ```bash
     ├── public
     ├── src
