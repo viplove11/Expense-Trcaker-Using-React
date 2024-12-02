@@ -69,3 +69,6 @@ Open your browser and navigate to http://localhost:3000 to view the application.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like
+
+## Screenshots:
+![Expense Ease Snapshot](<Expense Ease SS.png>)
