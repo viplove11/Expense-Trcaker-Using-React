@@ -11,11 +11,23 @@
   font-weight: 500;
   color: white;
 }
-.userName
-{
+.userName {
   font-weight: 500;
   font-size: 1.2vw;
 }
-.userName span{
+.userName span {
   color: orangered;
+}
+
+@media (max-width: 768px) {
+  /* Adjust the font size and other styles as needed for smaller screens */
+  .myTitle {
+    font-size: 45px;
+  }
+  #myButton {
+    display: none;
+  }
+  .userName{
+    display: none;
+  }
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
           {userName !== "" ? (
             <p className="userName">Hello, <span>{userName}</span></p>
           ) : (
-            <button className="btn btn-secondary" id="mtButton" type="submit">
+            <button className="btn btn-secondary" id="myButton" type="submit">
               <FaPlus /> New Transaction
             </button>
           )}

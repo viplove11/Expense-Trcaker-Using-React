@@ -80,3 +80,13 @@
   font-size: 14px;
   border-radius: 15px;
 }
+
+@media (max-width:768px)
+{
+  .search-transaction{
+    display: none;
+  }
+  .recent-entry{
+    height: 200px;
+  }
+}

@@ -55,3 +55,21 @@
   font-weight: 500;
   letter-spacing: 1.2px;
 }
+
+@media (max-width:768px)
+{
+.income-expense{
+  display: flex;
+  flex-direction: column;
+}
+.income, .expense{
+  width: 100%;
+}
+.income span, .expense span{
+  font-size: 40px;
+}
+.total-balance span{
+  
+  font-size: 30px;
+}
+}
